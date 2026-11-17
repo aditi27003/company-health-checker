@@ -7,6 +7,6 @@ echo Installing tools (only slow the first time)...
 %PY% -m pip install -r requirements.txt >> setup_log.txt 2>&1
 echo Starting Company Health Checker at http://localhost:8501 ...
 echo Keep this window open while you use the app. Close it to stop the app.
-%PY% -m streamlit run app.py --server.headless true >> setup_log.txt 2>&1
+%PY% -m streamlit run app.py >> setup_log.txt 2>&1
 echo The app stopped. See setup_log.txt for details.
 pause

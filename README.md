@@ -1,5 +1,7 @@
 # 🩺 Company Health Checker
 
+**🚀 [Try the live app here](https://aditi-company-health-checker.streamlit.app)**. No installation needed, it opens in your browser.
+
 A small web app that checks the financial health of any NSE-listed Indian company.
 Type a symbol (like `INFY` or `ITC`). The app downloads the company's yearly financial
 statements from Yahoo Finance, works out five key MBA finance ratios, and gives each one
